@@ -1,0 +1,62 @@
+.item_friend {
+    display: flex;
+    align-items: center; 
+    border: 1px solid grey;
+    margin-bottom: 20px;  
+    width: 180px; 
+    margin: 10px auto;  
+    justify-content: left; 
+    padding: 5px 5px 5px 10px; 
+    border-radius: 6px; 
+    background-color: aliceblue;
+   
+  }
+  
+  .avatar_friend {
+    margin-right: 10px;  
+    width: 48px; 
+    border: 1px solid gray; 
+    border-radius: 6px;
+  }
+  
+  .name_friend {
+    margin: 0;  
+    font-weight: 500;
+  } 
+ 
+ /* statusy    */
+ 
+
+ .status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .online {
+    background-color: green;
+  }
+  
+  .offline {
+    background-color: red;
+  } 
+
+
+
+
+  .status_online {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: green;
+  }
+  
+  .status_offline {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: red;
+  }
